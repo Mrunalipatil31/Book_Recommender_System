@@ -22,4 +22,13 @@ A Collaborative based filtering method is used to build a book recommender syste
 **Dataset Description**
 There are 3 files in our dataset extracted from some books selling website.
 
-Books - First file contains all the information related to books like an author,book title,
+Books - The first file contains all the information related to books like an author,book title,publication year,ISBN,etc.
+Users - The second file contains registered user's information like user id,location.
+Ratings - Ratings file contain information like which user has given how much rating to which book.
+Based on this 3 files a powerful collaborative filtering model is build.
+
+A large dataset consists of 271360 books data and total registered users on the website are approximately 278000 with 11 lakh ratings.
+The values in the CSV file are separated by semicolons and not by comma.
+
+**Exploratory Data Analysis**
+
