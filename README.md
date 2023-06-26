@@ -15,4 +15,11 @@ It is basically a combination of both the above methods. It is a too complex mod
 
 **Overview:**
 Book Recommendation System
-A book recommendation system is a type of recommendation system where we have to recommend similar books to the reader based on their interest. The books recommendation system is used by online websites which provide ebooks like google play books, open library, good Read’s, etc.
+A book recommendation system is a type of recommendation system where we have to recommend similar books to the reader based on their interest. The books recommendation system is used by online websites which provide ebooks like google play books, open library, good read’s, etc.
+
+A Collaborative based filtering method is used to build a book recommender system.
+
+**Dataset Description**
+There are 3 files in our dataset extracted from some books selling website.
+
+Books - First file contains all the information related to books like an author,book title,
