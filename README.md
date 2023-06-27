@@ -14,13 +14,13 @@ Collaborative based filtering recommender systems are based on past interactions
 3) Hybrid Filtering Method
 It is basically a combination of both the above methods. It is a too complex model which recommends product based on your history as well based on similar users like.
 
-**Overview**:
+**Overview:**
 
 A book recommendation system is a type of recommendation system where we have to recommend similar books to the reader based on their interest. The books recommendation system is used by online websites which provide ebooks like google play books, open library, good read’s, etc.
 
 A Collaborative based filtering method is used to build a book recommender system.
 
-**Dataset Description**
+**Dataset Description:**
 
 There are 3 files in our dataset extracted from some books selling website.
 
@@ -32,13 +32,13 @@ Based on this 3 files a powerful collaborative filtering model is build.
 A large dataset consists of 271360 books data and total registered users on the website are approximately 278000 with 11 lakh ratings.
 The values in the CSV file are separated by semicolons and not by comma.
 
-**Exploratory Data Analysis**
+**Exploratory Data Analysis:**
 
 1. Extract users and ratings who have given more than 200 ratings.
 2. Extract books that have received more than 50 ratings.
 3. Create Pivot Table
 
-**Modeling**
+**Modeling:**
 
 The dataset obtained after exploratory data analysis is used for clustering based on euclidian distance with the nearest neighbors algorithm.
 It gives us all the 10 suggested books to the input book.
