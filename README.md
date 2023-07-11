@@ -40,6 +40,6 @@ The values in the CSV file are separated by semicolons and not by comma.
 
 **Modeling:**
 
-The dataset obtained after exploratory data analysis is used for clustering based on euclidian distance with the nearest neighbors algorithm.
+The dataset obtained after exploratory data analysis is used for clustering based on euclidian distance with the nearest neighbors KNN algorithm.
 It gives us all the 10 suggested books to the input book.
 Hence,a reliable book recommendation system is build to an end-to-end project.
